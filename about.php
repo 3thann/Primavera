@@ -16,8 +16,7 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>Who We Are</h2>
-		   					<p class="fh5co-lead">Designed with <i class="icon-heart"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+		   					<h2>A propos de nous</h2>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -28,18 +27,18 @@
 
 	<div class="fh5co-about animate-box">
 		<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-			<h2>Company History</h2>
-			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. </p>
+			<h2>Notre histoire</h2>
+			<p>Projet</p>
 		</div>	
 		<div class="container">
 			<div class="col-md-12 animate-box">
 				<figure>
-					<img src="images/about-img.jpg" alt="Free HTML5 Template" class="img-responsive">
+					<img src="images/about-img.jpg" alt="." class="img-responsive">
 				</figure>
 			</div>
 			<div class="col-md-8 col-md-push-4 animate-box">
-				<h2>A Startup Company</h2>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+				<h2>Notre mission</h2>
+				<p>Mission de Primavera</p>
 				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Learn more <i class="icon-arrow-right"></i></a></p>
 
 			</div>
@@ -51,8 +50,8 @@
 			
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-						<h2>The Team</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+						<h2>L'équipe</h2>
+						<p>Presentation</p>
 					</div>
 					<div class="col-md-4 fh5co-staff text-center animate-box">
 						<img src="images/person1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
@@ -120,16 +119,6 @@
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
 					<p><a href="#" class="btn btn-primary btn-outline with-arrow">Learn more <i class="icon-arrow-right"></i></a></p>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="fh5co-cta" style="background-image: url(images/image_3.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="col-md-12 text-center animate-box">
-				<h3>We Try To Update The Site Everyday</h3>
-				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Get started now! <i class="icon-arrow-right"></i></a></p>
 			</div>
 		</div>
 	</div>

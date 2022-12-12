@@ -16,8 +16,8 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>Our Expertise</h2>
-		   					<p class="fh5co-lead">Designed with <i class="icon-heart"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+		   					<h2>Nos services</h2>
+		   					<p class="fh5co-lead">Primavera propose...</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -111,66 +111,6 @@
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
 					<p><a href="#" class="btn btn-primary btn-outline with-arrow">Learn more <i class="icon-arrow-right"></i></a></p>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-pricing-section" class="fh5co-light-grey-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>Pricing</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="pricing">
-					<div class="col-md-3 animate-box">
-						<div class="price-box">
-							<h2 class="pricing-plan">Starter</h2>
-							<div class="price"><sup class="currency">$</sup>9<small>/month</small></div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
-						</div>
-					</div>
-
-					<div class="col-md-3 animate-box">
-						<div class="price-box">
-							<h2 class="pricing-plan">Basic</h2>
-							<div class="price"><sup class="currency">$</sup>27<small>/month</small></div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
-						</div>
-					</div>
-
-					<div class="col-md-3 animate-box">
-						<div class="price-box popular">
-							<h2 class="pricing-plan pricing-plan-offer">Pro <span>Best Offer</span></h2>
-							<div class="price"><sup class="currency">$</sup>74<small>/month</small></div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
-						</div>
-					</div>
-
-					<div class="col-md-3 animate-box">
-						<div class="price-box">
-							<h2 class="pricing-plan">Unlimited</h2>
-							<div class="price"><sup class="currency">$</sup>140<small>/month</small></div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="fh5co-cta" style="background-image: url(images/slide_1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="col-md-12 text-center animate-box">
-				<h3>We Try To Update The Site Everyday</h3>
-				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Get started now! <i class="icon-arrow-right"></i></a></p>
 			</div>
 		</div>
 	</div>

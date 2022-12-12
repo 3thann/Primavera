@@ -16,8 +16,8 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>Our Awesome Projects</h2>
-		   					<p class="fh5co-lead">Designed with <i class="icon-heart"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+		   					<h2>Nos produits</h2>
+		   					<p class="fh5co-lead"></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -128,16 +128,6 @@
 						</div>
 					</a>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="fh5co-cta" style="background-image: url(images/slide_1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="col-md-12 text-center animate-box">
-				<h3>We Try To Update The Site Everyday</h3>
-				<p><a href="#" class="btn btn-primary btn-outline with-arrow">Get started now! <i class="icon-arrow-right"></i></a></p>
 			</div>
 		</div>
 	</div>
