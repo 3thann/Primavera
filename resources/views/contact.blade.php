@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html class="no-js">
-	<?php include('layout/head.php'); ?>
+@extends('layout.app')
 
-<body>
-	<div id="fh5co-page">
-
-	<?php include('layout/header.php'); ?>
-	
+@section('content')
 
 	<aside id="fh5co-hero" class="js-fullheight">
 		<div class="flexslider js-fullheight">
@@ -72,13 +66,5 @@
 	</div>
 
 	<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
-	
-	<?php include('layout/footer.php'); ?>
-	
-	</div>
-	
-	<?php include('layout/import_js.php'); ?>
 
-	</body>
-</html>
-
+@endsection

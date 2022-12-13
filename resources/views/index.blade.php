@@ -1,52 +1,45 @@
-<!DOCTYPE html>
-<html class="no-js">
-	<?php include('layout/head.php'); ?>
+@extends('layout.app')
 
-<body>
-	<div id="fh5co-page">
+@section('content')
 
-	<?php include('layout/header.php'); ?>
-	
-	<div class="container">
-		
-	</div>
 	<aside id="fh5co-hero" class="js-fullheight">
-		<div class="flexslider js-fullheight">
-			<ul class="slides">
-		   	<li style="background-image: url(images/slide_1.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Primavera</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/slide_2.jpg);">
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Seconde main</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/slide_3.jpg);">
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Renaissance</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
+    <div class="flexslider js-fullheight">
+        <ul class="slides">
+           <li style="background-image: url(images/slide_1.jpg);">
+               <div class="overlay-gradient"></div>
+               <div class="container">
+                   <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+                       <div class="slider-text-inner">
+                           <h2>Primavera</h2>
+                           <p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
+                       </div>
+                   </div>
+               </div>
+           </li>
+           <li style="background-image: url(images/slide_2.jpg);">
+               <div class="container">
+                   <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+                       <div class="slider-text-inner">
+                           <h2>Seconde main</h2>
+                           <p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
+                       </div>
+                   </div>
+               </div>
+           </li>
+           <li style="background-image: url(images/slide_3.jpg);">
+               <div class="container">
+                   <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+                       <div class="slider-text-inner">
+                           <h2>Renaissance</h2>
+                           <p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
+                       </div>
+                   </div>
+               </div>
+           </li>
+          </ul>
+      </div>
 	</aside>
+
 	<div id="fh5co-services-section">
 		<div class="container">
 			<div class="row">
@@ -285,11 +278,4 @@
 		</div>
 	</div>
 
-	<?php include('layout/footer.php'); ?>
-	
-	</div>
-	
-	<?php include('layout/import_js.php'); ?>
-
-	</body>
-</html>
+@endsection
