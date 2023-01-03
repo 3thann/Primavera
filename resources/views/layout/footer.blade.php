@@ -3,15 +3,15 @@
 		<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
 			<h3>A propos de nous</h3>
 			<p>Desciption</p>
-			<p><a href="#" class="btn btn-primary btn-outline with-arrow btn-sm">Nous rejoindre <i class="icon-arrow-right"></i></a></p>
+			<p><a href="{{ route('contact') }}" class="btn btn-primary btn-outline with-arrow btn-sm">Nous contacter <i class="icon-arrow-right"></i></a></p>
 		</div>
 		<div class="col-md-6 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
 			<h3>Nos services</h3>
 			<ul class="float">
-				<li><a href="#">Nos produits</a></li>
-				<li><a href="#">Nos services</a></li>
-				<li><a href="#">A propos</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="{{ route('work') }}">Nos produits</a></li>
+				<li><a href="{{ route('services') }}">Nos services</a></li>
+				<li><a href="{{ route('about') }}">A propos</a></li>
+				<li><a href="{{ route('contact') }}">Contact</a></li>
 			</ul>
 		</div>
 		<div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
