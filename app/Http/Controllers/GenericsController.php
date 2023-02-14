@@ -4,30 +4,30 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Primavera extends Controller
+class GenericsController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('generics.index');
     }
 
     public function about()
     {
-        return view('about');
+        return view('generics.about');
     }
 
     public function contact()
     {
-        return view('contact');
+        return view('generics.contact');
     }
 
     public function services()
     {
-        return view('services');
+        return view('generics.services');
     }
     
     public function work()
     {
-        return view('work');
+        return view('generics.work');
     }
 }
