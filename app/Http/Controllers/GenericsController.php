@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Image;
+
 
 class GenericsController extends Controller
 {
     public function index()
     {
-        return view('generics.index');
+        $images = Image::all();
+        
+        return view('generics.index', compact('images'));
     }
 
     public function about()
@@ -16,18 +20,9 @@ class GenericsController extends Controller
         return view('generics.about');
     }
 
-    public function contact()
-    {
-        return view('generics.contact');
-    }
-
     public function services()
     {
         return view('generics.services');
     }
-    
-    public function work()
-    {
-        return view('generics.work');
-    }
+
 }

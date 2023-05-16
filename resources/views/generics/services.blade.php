@@ -2,23 +2,22 @@
 
 @section('content')
 
-	<aside id="fh5co-hero" class="js-fullheight">
-		<div class="flexslider js-fullheight">
-			<ul class="slides">
-		   	<li style="background-image: url(images/slide_2.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Nos services</h2>
-		   					<p class="fh5co-lead">Primavera propose...</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside>
+<header id="fh5co-header" role="banner">
+	<div class="container">
+		<div class="header-inner">
+			<h1><a href="{{ route('generics.index') }}">Prima Vera</a></h1>
+			<nav role="navigation">
+				<ul>
+					<li class="header-bar-text"><a href="{{ route('generics.index') }}">Accueil</a></li>
+					<li class="header-bar-text"><a href="{{ route('project.index') }}">Nos projets</a></li>
+					<li class="header-bar-text active"><a href="{{ route('generics.services') }}">Nos services</a></li>
+					<li class="header-bar-text"><a href="{{ route('generics.about') }}">À propos</a></li>
+					<li class="header-bar-text"><a href="{{ route('contact.index') }}">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
 
 	
 	<div id="fh5co-services-section">
@@ -26,7 +25,7 @@
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
 					<h2>Our Awesome Features</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+					<p>A l'heure où le local et la mode éthique reprennent le dessus sur la fast fashion, Prima Vera se postionne comme une marque éco-responsable et artistique. Le concept ? Proposer de l'orginalité au travers de pièces de seconde main repensées de A à Z pour des collections en séries limitées.  Au-delà de sa collection,  la marque propose un service de réparation, pour les clients qui souhaiteraient redonner vie à leurs vêtements, plutôt que d’en racheter de nouveaux, ou de les recycler. </p>
 				</div>
 			</div>
 			<div class="row">

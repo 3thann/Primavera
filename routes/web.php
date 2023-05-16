@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\GenericsController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,9 +23,16 @@ Route::get('/', function () {
 
 Route::get('/index', [GenericsController::class, 'index'])->name("generics.index");
 Route::get('/about', [GenericsController::class, 'about'])->name("generics.about");
-Route::get('/contact', [GenericsController::class, 'contact'])->name("generics.contact");
 Route::get('/services', [GenericsController::class, 'services'])->name("generics.services");
-Route::get('/work', [GenericsController::class, 'work'])->name("generics.work");
+
+
+Route::get('/projets', [ProjectController::class, 'index'])->name("project.index");
+Route::get('/projet-{id}', [ProjectController::class, 'show'])->name("project.show");
+
+
+Route::get('/contact', [ContactController::class, 'index'])->name("contact.index");
+Route::post('/contact/store', [ContactController::class, 'store'])->name("contact.store");
+Route::get('/contact-admin', [ContactController::class, 'show'])->middleware(['auth', 'verified'])->name("contact.show");
 
 Route::get('/dashboard', function () {
     return view('dashboard');

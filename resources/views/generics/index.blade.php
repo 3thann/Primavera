@@ -2,180 +2,70 @@
 
 @section('content')
 
-	<aside id="fh5co-hero" class="js-fullheight">
-    <div class="flexslider js-fullheight">
-        <ul class="slides">
-           <li style="background-image: url(images/slide_1.jpg);">
-               <div class="overlay-gradient"></div>
-               <div class="container">
-                   <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-                       <div class="slider-text-inner">
-                           <h2>Primavera</h2>
-                           <p><a href="#" class="btn btn-primary btn-lg">En savoir plus</a></p>
-                       </div>
-                   </div>
-               </div>
-           </li>
-           <li style="background-image: url(images/slide_2.jpg);">
-               <div class="container">
-                   <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-                       <div class="slider-text-inner">
-                           <h2>Seconde main</h2>
-                           <p><a href="#" class="btn btn-primary btn-lg">En savoir plus</a></p>
-                       </div>
-                   </div>
-               </div>
-           </li>
-           <li style="background-image: url(images/slide_3.jpg);">
-               <div class="container">
-                   <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-                       <div class="slider-text-inner">
-                           <h2>Renaissance</h2>
-                           <p><a href="#" class="btn btn-primary btn-lg">En savoir plus</a></p>
-                       </div>
-                   </div>
-               </div>
-           </li>
-          </ul>
-      </div>
-	</aside>
-
-	<div id="fh5co-services-section">
+	<header id="fh5co-header" role="banner">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>Our Awesome Features</h2>
-					<p>Text</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<i class="icon-laptop"></i>
-						<div class="desc">
-							<h3>Dashboard</h3>
-							<p>Text</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<i class="icon-server"></i>
-						<div class="desc">
-							<h3>Administration</h3>
-							<p>Text</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<i class="icon-money"></i>
-						<div class="desc">
-							<h3>Title</h3>
-							<p>Text</p>
-						</div>
-					</div>
-				</div>
+			<div class="header-inner">
+				<h1><a href="{{ route('generics.index') }}">Prima Vera</a></h1>
+				<nav role="navigation">
+					<ul>
+						<li class="header-bar-text active"><a href="{{ route('generics.index') }}">Accueil</a></li>
+						<li class="header-bar-text"><a href="{{ route('project.index') }}">Nos projets</a></li>
+						<li class="header-bar-text"><a href="{{ route('generics.services') }}">Nos services</a></li>
+						<li class="header-bar-text"><a href="{{ route('generics.about') }}">À propos</a></li>
+						<li class="header-bar-text"><a href="{{ route('contact.index') }}">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-	</div>
-	<div id="fh5co-work-section" class="fh5co-light-grey-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>Derniers projets</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_1.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Geographical App</h3>
-								<h5 class="category">Web Application</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_2.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Geographical App</h3>
-								<h5 class="category">User Interface</h5>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 animate-box">
-					<a href="#" class="item-grid text-center">
-						<div class="image" style="background-image: url(images/image_3.jpg)"></div>
-						<div class="v-align">
-							<div class="v-align-middle">
-								<h3 class="title">Geographical App</h3>
-								<h5 class="category">Branded</h5>
-							</div>
-						</div>
-					</a>
-				</div>
+	</header>
+
+			{{-- <div class="row">
+
 				<div class="col-md-12 text-center animate-box">
-					<p><a href="#" class="btn btn-primary with-arrow">Voir plus de projets<i class="icon-arrow-right"></i></a></p>
+					<p><a href="{{ route('project.index') }}" class="btn btn-primary with-arrow">Voir plus de projets<i class="icon-arrow-right"></i></a></p>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div id="fh5co-testimony-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-					<h2>Clients Feedback</h2>
-					<p>Text</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-offset-0 to-animate">
-					<div class="wrap-testimony animate-box">
-						<div class="owl-carousel-fullwidth">
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person1.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"Text"</p>
-									</blockquote>
-									<span>Athan Smith, via <a href="#" class="twitter">Twitter</a></span>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person2.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"Text"</p>
-									</blockquote>
-									<span>Nathalie Kosley, via <a href="#" class="twitter">Twitter</a></span>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person3.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"Text"</p>
-									</blockquote>
-									<span>Yanna Kuzuki, via <a href="#" class="twitter">Twitter</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+			</div> --}}
+	
+	<div class="container d-flex justify-content-center">
+ 			<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+ 			  <div class="carousel-indicators">
+				
+				
+				@foreach ($images as $image)
+					@if ($image->id == 1)
+						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="{{ $image->id }}" class="active" aria-current="true" aria-label="Slide {{ $image->id }}"></button>
+					@else
+						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="{{ $image->id }}" aria-label="Slide {{ $image->id }}"></button>
+					@endif
+				@endforeach
 
+ 			  </div>
+ 			  {{-- <div class="carousel-inner">
+ 			    <div class="carousel-item active">
+ 			      <img src="images/image1.jpg" height="600px" width="auto">
+ 			    </div> --}}
+
+				@foreach ($images as $image)
+					@if ( $image->id == 1)
+						<div class="carousel-item active">
+					@else
+						<div class="carousel-item">
+					@endif
+							<img src="images/{{ $image->link }}" height="600px" width="auto">
+ 			    		</div>
+				@endforeach
+
+ 			  </div>
+
+ 			  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+ 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+ 			    <span class="visually-hidden">Previous</span>
+ 			  </button>
+
+ 			  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+ 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+ 			    <span class="visually-hidden">Next</span>
+ 			  </button>
+ 			</div>
+	</div>
 @endsection
