@@ -67,20 +67,20 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## But du site
 
-Le site Primavera est un site web vitrine servant essentiellement à la présentation de l'association et de nos methode de fabrications
-Sur le sites plusieurs projets seront présenté appuyé par des textes explicatifs et des video de conceptions
+Le site Primavera est un site web vitrine servant essentiellement à la présentation de l'association et de nos méthodes de fabrications
+Sur le site plusieurs projets seront présentés appuyé par des textes explicatifs et des vidéos de conceptions
 
 ## Le contact
 
-Le site possède un systeme de connexion qui sera utilisé pour les formulaire de contact pour permettre de garder un historique des demandes 
-Les contacts seront effectuer par un formulaire de contact présent sur le sites 
+Le site possède un système de connexion qui sera utilisé pour le formulaire de contact pour permettre de garder un historique des demandes 
+Les contacts seront effectuer par un formulaire de contact présent sur le site 
 
-## le fonctionnement du sites
+## Le fonctionnement du site
 
-La page d'accueil du sites présentera des projet clicable pour obtenir plus d'information dessus ainsi que de permettre la navigation entre les differents onglet de ce dernier
+La page d'accueil du site présentera des projets cliquables pour obtenir plus d'information dessus ainsi que de permettre la navigation entre les différents onglets de ce dernier
 
 ## Pourquoi pas un site marchand
 
-Le but premier de l'association Prima vera est de fonder une boutique physique indépendant pour vendre des pieces unique et de proposer des services de modification et de réparation des vetements
-Il est donc necessaire de faire venir la clientele dans la boutique et non pas d'effectuer de la vente en ligne 
-Pour cela le sites est un sites vitrine servant de pub pour la boutique comme l'instagram de l'association.
+Le but premier de l'association Prima vera est de fonder une boutique physique indépendante pour vendre des pièces uniques et de proposer des services de modification et de réparation des vetements
+Il est donc nécessaire de faire venir la clientèle dans la boutique et non pas d'effectuer de la vente en ligne 
+Pour cela le site est un site vitrine servant de pub pour la boutique comme l'instagram de l'association.
