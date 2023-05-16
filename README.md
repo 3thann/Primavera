@@ -1,3 +1,5 @@
+<p align="center"><img src="public/images/logo_couleurs.jpg" width="400" alt="Prima Vera Logo"></p>
+
 ## But du site
 
 Le site Primavera est un site web vitrine servant essentiellement à la présentation de l'association et de nos méthodes de fabrications.
