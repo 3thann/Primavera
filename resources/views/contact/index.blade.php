@@ -10,7 +10,6 @@
 				<ul>
 					<li class="header-bar-text"><a href="{{ route('generics.index') }}">Accueil</a></li>
 					<li class="header-bar-text"><a href="{{ route('project.index') }}">Nos projets</a></li>
-					<li class="header-bar-text"><a href="{{ route('generics.services') }}">Nos services</a></li>
 					<li class="header-bar-text"><a href="{{ route('generics.about') }}">À propos</a></li>
 					<li class="header-bar-text active"><a href="{{ route('contact.index') }}">Contact</a></li>
 				</ul>
@@ -19,7 +18,7 @@
 	</div>
 </header>
 
-	<div class="fh5co-contact fh5co-light-grey-section animate-box">
+	<div class="fh5co-contact animate-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">

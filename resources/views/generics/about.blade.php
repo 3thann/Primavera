@@ -10,7 +10,6 @@
 				<ul>
 					<li class="header-bar-text"><a href="{{ route('generics.index') }}">Accueil</a></li>
 					<li class="header-bar-text"><a href="{{ route('project.index') }}">Nos projets</a></li>
-					<li class="header-bar-text"><a href="{{ route('generics.services') }}">Nos services</a></li>
 					<li class="header-bar-text active"><a href="{{ route('generics.about') }}">À propos</a></li>
 					<li class="header-bar-text"><a href="{{ route('contact.index') }}">Contact</a></li>
 				</ul>
@@ -19,7 +18,7 @@
 	</div>
 </header>
 
-	<div class="fh5co-about fh5co-light-grey-section animate-box">
+	<div class="fh5co-about animate-box">
 		<div class="col-md-6 col-md-offset-3 mb-4 text-center fh5co-heading">
 			<h2>Notre histoire</h2>
 			<p>L'histoire de Prima Vera voit le jour en 2022 à Angers, avec une équipe de sept créateurs et développeurs prêts à s'engager pour proposer des solutions durables et responsables aux adeptes de mode, aux look excentriques et colorés. Comme expliqué ci-dessus, Primavera se base sur l'authenticité et la joie contestataire des années 60 avec la naissance de la mode hippie. Encore aujourd'hui, ce style vestimentaire intemporel est ouvert à tous, et Prima Vera deviendra le refuge de tous les esprits joyeux et contestataires.</p>

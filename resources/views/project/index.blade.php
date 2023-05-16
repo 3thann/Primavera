@@ -10,7 +10,6 @@
 					<ul>
 						<li class="header-bar-text"><a href="{{ route('generics.index') }}">Accueil</a></li>
 						<li class="header-bar-text active"><a href="{{ route('project.index') }}">Nos projets</a></li>
-						<li class="header-bar-text"><a href="{{ route('generics.services') }}">Nos services</a></li>
 						<li class="header-bar-text"><a href="{{ route('generics.about') }}">À propos</a></li>
 						<li class="header-bar-text"><a href="{{ route('contact.index') }}">Contact</a></li>
 					</ul>

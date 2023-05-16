@@ -20,9 +20,4 @@ class GenericsController extends Controller
         return view('generics.about');
     }
 
-    public function services()
-    {
-        return view('generics.services');
-    }
-
 }
