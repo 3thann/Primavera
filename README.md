@@ -1,3 +1,26 @@
+<p align="center"><img src="public/images/logo_couleurs.jpg" width="400" alt="Prima Vera Logo"></p>
+
+## But du site
+
+Le site Primavera est un site web vitrine servant essentiellement à la présentation de l'association et de nos méthodes de fabrications.
+Sur le site plusieurs projets seront présentés appuyé par des textes explicatifs et des vidéos de conceptions.
+
+## Le contact
+
+Le site possède un système de connexion qui sera utilisé pour le formulaire de contact pour permettre de garder un historique des demandes. 
+Les contacts seront effectuer par un formulaire de contact présent sur le site. 
+
+## Le fonctionnement du site
+
+La page d'accueil du site présentera des projets cliquables pour obtenir plus d'information dessus ainsi que de permettre la navigation entre les différents onglets de ce dernier.
+
+## Pourquoi pas un site marchand
+
+Le but premier de l'association Prima vera est de fonder une boutique physique indépendante pour vendre des pièces uniques et de proposer des services de modification et de réparation des vêtements.
+Il est donc nécessaire de faire venir la clientèle dans la boutique et non pas d'effectuer de la vente en ligne. 
+Pour cela le site est un site vitrine servant de pub pour la boutique comme l'instagram de l'association.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,23 +87,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## But du site
-
-Le site Primavera est un site web vitrine servant essentiellement à la présentation de l'association et de nos méthodes de fabrications
-Sur le site plusieurs projets seront présentés appuyé par des textes explicatifs et des vidéos de conceptions
-
-## Le contact
-
-Le site possède un système de connexion qui sera utilisé pour le formulaire de contact pour permettre de garder un historique des demandes 
-Les contacts seront effectuer par un formulaire de contact présent sur le site 
-
-## Le fonctionnement du site
-
-La page d'accueil du site présentera des projets cliquables pour obtenir plus d'information dessus ainsi que de permettre la navigation entre les différents onglets de ce dernier
-
-## Pourquoi pas un site marchand
-
-Le but premier de l'association Prima vera est de fonder une boutique physique indépendante pour vendre des pièces uniques et de proposer des services de modification et de réparation des vetements
-Il est donc nécessaire de faire venir la clientèle dans la boutique et non pas d'effectuer de la vente en ligne 
-Pour cela le site est un site vitrine servant de pub pour la boutique comme l'instagram de l'association.
